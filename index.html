@@ -23,7 +23,7 @@
   <nav class="navbar navbar-expand-lg shadow-sm">
     <div class="container">
 
-      <a class="navbar-brand" href="#">SnapX</a>
+      <a class="navbar-brand" href="#"><img src="./images/logo.png"class="card-img-top" alt="..."></a>
 
       <button class="navbar-toggler" type="button"
       data-bs-toggle="collapse"
@@ -76,10 +76,15 @@
         & Amazing
         <span>Awards</span>
       </h1>
+      <hr/>
+      <br/>
+
+      <br/>
 
       <p>
-        SnapX Photography is a professional website template with
-        beautiful layouts and contest categories.
+        SnapX Photography is a professional website template with 5 different HTML pages for 
+        maximum customizations. it is free for commercialusage.This Bootstrap 
+        v5.1.3 Css layout is provided by TemplateMo free Css Templates.
       </p>
 
       <button class="hero-btn">
@@ -96,50 +101,242 @@
   </section>
 
   <!-- CONTEST SECTION -->
+<div class="container py-5">
 
-  <div class="container contest-box">
+  <div class="row g-4 align-items-center justify-content-center">
 
-    <div class="row g-4 align-items-center">
+    <!-- PREV BUTTON -->
 
-      <!-- LEFT IMAGE -->
+    <div class="col-lg-1 col-md-2 col-3 text-center">
+      <div class="contest-card">
+        <img src="./images/prev.png"
+             class="img-fluid"
+             alt="Previous">
+      </div>
+    </div>
 
-      <div class="col-lg-4">
+    <!-- IMAGE 1 -->
 
-        <div class="contest-card">
-          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200" alt="">
+    <div class="col-lg-3 col-md-4">
+      <div class="contest-card">
+        <img src="./images/featured-03.jpg"
+             class="img-fluid rounded"
+             alt="Nature">
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+
+    <div class="col-lg-4 col-md-6">
+      <div class="contest-card p-4">
+
+        <div class="contest-content">
+
+          <h2 class="mb-3">
+            Walk In The Nature ★★★★☆(4.5)
+          </h2>
+
+          <p>
+            <b>Contest Winner:</b> Thomas Eddy
+          </p>
+
+          <p>
+            <b>Contest Author:</b> Anthony Soft
+          </p>
+
+          <p>
+            <b>Awards:</b> $8,400 + Canon EOS R1
+          </p>
+
         </div>
 
       </div>
+    </div>
 
-      <!-- CENTER CONTENT -->
+    <!-- IMAGE 2 -->
 
-      <div class="col-lg-4">
+    <div class="col-lg-3 col-md-4">
+      <div class="contest-card">
+        <img src="./images/featured-02.jpg"
+             class="img-fluid rounded"
+             alt="Contest">
+      </div>
+    </div>
 
-        <div class="contest-card">
+    <!-- NEXT BUTTON -->
 
-          <div class="contest-content">
+    <div class="col-lg-1 col-md-2 col-3 text-center">
+      <div class="contest-card">
+        <img src="./images/next.png"
+             class="img-fluid"
+             alt="Next">
+      </div>
+    </div>
 
-            <h4>Walk In The Nature ★★★★☆</h4>
+  </div>
 
-            <p><b>Contest Winner:</b> Thomas Eddy</p>
+</div>  <!-- CATEGORY SECTION -->
 
-            <p><b>Contest Author:</b> Anthony Soft</p>
+<section class="container py-5">
 
-            <p><b>Awards:</b> $8,400 + Canon EOS R1</p>
+  <!-- TITLE -->
 
+  <div class="d-flex justify-content-between align-items-center mb-5">
+
+    <div>
+      <p class="text-info fw-bold mb-2">
+        OUR CATEGORIES
+      </p>
+
+      <h2 class="fw-bold">
+        Check Out
+        <span class="text-info">Popular</span>
+        Contest
+        <span class="text-info">Categories</span>
+      </h2>
+    </div>
+
+    <button class="btn btn-info text-white px-4 py-2 rounded-pill">
+      Discover All Categories
+    </button>
+
+  </div>
+
+  <!-- CARDS -->
+
+  <div class="row g-4">
+
+    <!-- CARD 1 -->
+
+    <div class="col-lg-3 col-md-6">
+
+      <div class="category-card p-3">
+
+        <div class="d-flex align-items-center mb-3">
+
+          <div class="icon-box">
+            <i class="fa fa-image"></i>
+          </div>
+
+          <div class="ms-3">
+            <h6 class="mb-1">Nature Pic Contest</h6>
+            <p class="text-muted mb-0">
+              <span class="text-info fw-bold">126</span>
+              AvailableContests
+            </p>
           </div>
 
         </div>
 
+        <img src="./images/popular-01.png"
+             class="img-fluid rounded mb-3"
+             alt="Nature">
+
+        <button class="browse-btn w-100">
+          Browse Nature Pic Contests
+        </button>
+
       </div>
 
-      <!-- RIGHT IMAGE -->
+    </div>
 
-      <div class="col-lg-4">
+    <!-- CARD 2 -->
 
-        <div class="contest-card">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200" alt="">
+    <div class="col-lg-3 col-md-6">
+
+      <div class="category-card p-3">
+
+        <div class="d-flex align-items-center mb-3">
+
+          <div class="icon-box">
+            <i class="fa fa-camera"></i>
+          </div>
+
+          <div class="ms-3">
+            <h6 class="mb-1">Random Pic Contest</h6>
+            <p class="text-muted mb-0">
+              <span class="text-info fw-bold">116</span>
+              AvailableContests
+            </p>
+          </div>
+
         </div>
+
+        <img src="./images/popular-02.png"
+             class="img-fluid rounded mb-3"
+             alt="Random">
+
+        <button class="browse-btn w-100">
+          Browse Random Pic Contests
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- CARD 3 -->
+
+    <div class="col-lg-3 col-md-6">
+
+      <div class="category-card p-3">
+
+        <div class="d-flex align-items-center mb-3">
+
+          <div class="icon-box">
+            <i class="fa fa-user"></i>
+          </div>
+
+          <div class="ms-3">
+            <h6 class="mb-1">Portrait Pic Contest</h6>
+            <p class="text-muted mb-0">
+              <span class="text-info fw-bold">164</span>
+              AvailableContests
+            </p>
+          </div>
+
+        </div>
+
+        <img src="./images/popular-03.png"
+             class="img-fluid rounded mb-3"
+             alt="Portrait">
+
+        <button class="browse-btn w-100">
+          BrowsePortraitPicContests
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- CARD 4 -->
+
+    <div class="col-lg-3 col-md-6">
+
+      <div class="category-card p-3">
+
+        <div class="d-flex align-items-center mb-3">
+
+          <div class="icon-box">
+            <i class="fa fa-globe"></i>
+          </div>
+
+          <div class="ms-3">
+            <h6 class="mb-1">Space Pic Contest</h6>
+            <p class="text-muted mb-0">
+              <span class="text-info fw-bold">135</span>
+              AvailableContests
+            </p>
+          </div>
+
+        </div>
+
+        <img src="./images/popular-04.png"
+             class="img-fluid rounded mb-3"
+             alt="Space">
+
+        <button class="browse-btn w-100">
+        BrowseSpace Pic Contests
+        </button>
 
       </div>
 
@@ -147,118 +344,251 @@
 
   </div>
 
-  <!-- CATEGORY SECTION -->
+</section>
+<!-- CONTEST SECTION -->
 
-  <section class="container py-5">
+  <section class="contest-section py-5">
 
-    <div class="d-flex justify-content-between align-items-center section-title">
+    <div class="container">
 
-      <div>
+      <!-- TITLE -->
 
-        <p class="text-info fw-bold">
-          OUR CATEGORIES
+      <div class="text-center mb-5">
+
+        <p class="small-title">
+          CLOSED PHOTOGRAPHY CONTESTS
         </p>
 
-        <h2>
-          Check Out
-          <span>Popular</span>
-          Contest
-          <span>Categories</span>
+        <h2 class="main-title">
+          Previous Contests With Handpicked
+          <span>Winners</span>
         </h2>
 
       </div>
 
-      <button class="btn btn-info text-white px-4 py-2 rounded-pill">
-        Discover All Categories
-      </button>
+      <!-- CARDS -->
+
+      <div class="row g-4">
+
+        <!-- CARD 1 -->
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="contest-card">
+
+            <img src="./images/closed-01.jpg"
+              class="img-fluid contest-img"
+              alt="contest">
+
+            <div class="contest-content d-flex justify-content-between">
+
+              <div>
+                <h5><b>96 Participants</b></h5>
+                <p>Number Of Artists</p>
+              </div>
+
+              <div>
+                <h5><b>410 Pictures</b></h5>
+                <p>Submitted Pics</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="contest-card">
+
+            <img src="./images/closed-02.jpg"
+              class="img-fluid contest-img"
+              alt="contest">
+
+            <div class="contest-content d-flex justify-content-between">
+
+              <div>
+                <h5>74 Participants</h5>
+                <p>Number Of Artists</p>
+              </div>
+
+              <div>
+                <h5>284 Pictures</h5>
+                <p>Submitted Pics</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="contest-card">
+
+            <img src="./images/closed-03.jpg"
+              class="img-fluid contest-img"
+              alt="contest">
+
+            <div class="contest-content d-flex justify-content-between">
+
+              <div>
+                <h5><b>88 Participants</b></h5>
+                <p>Number Of Artists</p>
+              </div>
+
+              <div>
+                <h5><b>320 Pictures</b></h5>
+                <p>Submitted Pics</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- BUTTON -->
+
+      <div class="text-center mt-5">
+
+        <button class="browse-btn">
+          Browse Open Contests
+        </button>
+
+      </div>
 
     </div>
 
-    <div class="row g-4">
+  </section>
+  <!-- PRICING SECTION -->
 
-      <!-- CARD 1 -->
+  <section class="pricing-section py-5">
 
-      <div class="col-lg-3 col-md-6">
+    <div class="container">
 
-        <div class="category-card">
+      <!-- TITLE -->
 
-          <i class="fa fa-image"></i>
+      <div class="text-center mb-5">
 
-          <h5>Nature Pic Contest</h5>
+        <p class="small-title">
+          OUR PRICING
+        </p>
 
-          <p class="text-muted">126 Available Contests</p>
-
-          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200" alt="">
-
-          <button class="browse-btn">
-            Browse Nature Pic Contests
-          </button>
-
-        </div>
-
-      </div>
-
-      <!-- CARD 2 -->
-
-      <div class="col-lg-3 col-md-6">
-
-        <div class="category-card">
-
-          <i class="fa fa-camera"></i>
-
-          <h5>Random Pic Contest</h5>
-
-          <p class="text-muted">116 Available Contests</p>
-
-          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200" alt="">
-
-          <button class="browse-btn">
-            Browse Random Pic Contests
-          </button>
-
-        </div>
+        <h2 class="main-title">
+          Photography
+          <span>Contest Plans</span>
+          And Price
+          <span>Awards</span>
+        </h2>
 
       </div>
 
-      <!-- CARD 3 -->
+      <!-- PRICING CARDS -->
 
-      <div class="col-lg-3 col-md-6">
+      <div class="row g-4">
 
-        <div class="category-card">
+        <!-- CARD 1 -->
 
-          <i class="fa fa-user"></i>
+        <div class="col-lg-4 col-md-6">
 
-          <h5>Portrait Pic Contest</h5>
+          <div class="pricing-card text-center">
 
-          <p class="text-muted">164 Available Contests</p>
+            <img src="./images/pricing-01.jpg"
+              class="pricing-img"
+              alt="Basic Plan">
 
-          <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200" alt="">
+            <h3>Basic Plan</h3>
 
-          <button class="browse-btn">
-            Browse Portrait Pic Contests
-          </button>
+            <hr>
+
+            <ul class="pricing-list">
+              <li>Lorem Ipsum Dolores Sonte</li>
+              <li>Songe Lorem Ipsum Dol</li>
+              <li>Matrios Venga Heptuss</li>
+              <li>Denim Sriracha Kogi</li>
+              <li>Digital Photography Awards</li>
+            </ul>
+
+            <h2 class="price">$25 USD</h2>
+
+            <button class="plan-btn">
+              Choose This Plan
+            </button>
+
+          </div>
 
         </div>
 
-      </div>
+        <!-- CARD 2 -->
 
-      <!-- CARD 4 -->
+        <div class="col-lg-4 col-md-6">
 
-      <div class="col-lg-3 col-md-6">
+          <div class="pricing-card text-center">
 
-        <div class="category-card">
+            <img src="./images/pricing-02.jpg"
+              class="pricing-img"
+              alt="Standard Plan">
 
-          <i class="fa fa-globe"></i>
+            <h3>Standard Plan</h3>
 
-          <h5>Space Pic Contest</h5>
+            <hr>
 
-          <p class="text-muted">135 Available Contests</p>
+            <ul class="pricing-list">
+              <li>Lorem Ipsum Dolores Sonte</li>
+              <li>Songe Lorem Ipsum Dol</li>
+              <li>Matrios Venga Heptuss</li>
+              <li>Denim Sriracha Kogi</li>
+              <li>Digital Photography Awards</li>
+            </ul>
 
-          <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200" alt="">
+            <h2 class="price">$45 USD</h2>
 
-          <button class="browse-btn">
-            Browse Space Pic Contests
-          </button>
+            <button class="plan-btn">
+              Choose This Plan
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="pricing-card text-center">
+
+            <img src="./images/pricing-03.jpg"
+              class="pricing-img"
+              alt="Advanced Plan">
+
+            <h3>Advanced Plan</h3>
+
+            <hr>
+
+            <ul class="pricing-list">
+              <li>Lorem Ipsum Dolores Sonte</li>
+              <li>Songe Lorem Ipsum Dol</li>
+              <li>Matrios Venga Heptuss</li>
+              <li>Denim Sriracha Kogi</li>
+              <li>Digital Photography Awards</li>
+            </ul>
+
+            <h2 class="price">$85 USD</h2>
+
+            <button class="plan-btn">
+              Choose This Plan
+            </button>
+
+          </div>
 
         </div>
 
@@ -268,9 +598,13 @@
 
   </section>
 
-  <!-- Bootstrap JS -->
+  <!-- FOOTER -->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+  <footer class="footer text-center">
+    <p>
+      Copyright © 2022 SnapX Photo Contest Co., Ltd.
+      All rights reserved.
+    </p>
+  </footer>
 </body>
 </html>
